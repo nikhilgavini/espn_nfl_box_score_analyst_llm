@@ -1,4 +1,4 @@
-# ESPN Boxscore Analyst LLM Learning Project
+# ESPN NFL Box Score Analyst - LLM Learning Project
 ## What this repo demonstrates:
 This repo demonstrates a full LLM engineering workflow: scraping real-world data, preprocessing, structured prompting, and calling OpenAI models to produce domain-specific insights.
 
@@ -22,7 +22,7 @@ ESPN Box Score URL → scraper.py → cleaned text → OpenAI API → analysis o
 
 ```bash
 git clone https://github.com/nikhilgavini/espn_nfl_box_score_analyst_llm.git
-cd espn-boxscore-analyst
+cd espn_nfl_box_score_analyst_llm
 ```
 
 ### 2. Create a virtual environment

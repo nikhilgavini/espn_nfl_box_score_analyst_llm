@@ -1,5 +1,8 @@
 # ESPN Boxscore Analyst LLM Learning Project
+## What this repo demonstrates:
+This repo demonstrates a full LLM engineering workflow: scraping real-world data, preprocessing, structured prompting, and calling OpenAI models to produce domain-specific insights.
 
+## What this project does:
 Summarize any ESPN NFL game box score using an LLM acting as a professional sports analyst.
 
 This project:
@@ -7,6 +10,11 @@ This project:
 - Extracts the page text
 - Sends it to an OpenAI model with a carefully written system/user prompt
 - Returns a concise, analyst-grade breakdown of the game
+
+### Project Diagram
+```arduino
+ESPN Box Score URL → scraper.py → cleaned text → OpenAI API → analysis output
+```
 
 ## Setup
 

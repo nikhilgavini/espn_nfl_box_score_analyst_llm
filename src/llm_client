@@ -21,7 +21,7 @@ def summarize_boxscore(
     client: OpenAI,
     url: str,
     boxscore_text: str,
-    model: str = "gpt-4.1-mini",
+    model: str = "gpt-4.1-nano",   # Using 4.1-nano to keep costs miniscule as this is a learning repo
 ) -> str:
     """
     Call the OpenAI Chat Completions API to summarize an ESPN box score.
